@@ -10,10 +10,10 @@ const LanguageSelector = ({ onSelectLanguage }: LanguageSelectorProps) => {
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="text-center animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-pervers to-nerd bg-clip-text text-transparent">
-          Gaming Purity Test
+          Valopurity
         </h1>
         <p className="text-xl text-muted-foreground mb-12">
-          Découvre ton niveau de gaming / Discover your gaming level
+          Test de Pureté Valorant / Valorant Purity Test
         </p>
         
         <div className="flex gap-6 justify-center">

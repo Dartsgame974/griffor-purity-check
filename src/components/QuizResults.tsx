@@ -21,8 +21,8 @@ const QuizResults = ({
   const getMessage = () => {
     if (percentage < 20) {
       return language === "fr"
-        ? "Tu es un ange ! Presque trop pur pour ce monde gaming."
-        : "You're an angel! Almost too pure for this gaming world.";
+        ? "Tu es un ange ! Presque trop pur pour Valorant."
+        : "You're an angel! Almost too pure for Valorant.";
     }
     if (percentage < 40) {
       return language === "fr"
@@ -31,8 +31,8 @@ const QuizResults = ({
     }
     if (percentage < 60) {
       return language === "fr"
-        ? "Gamer moyen, quelques moments douteux..."
-        : "Average gamer, some questionable moments...";
+        ? "Joueur moyen, quelques moments douteux..."
+        : "Average player, some questionable moments...";
     }
     if (percentage < 80) {
       return language === "fr"
@@ -40,8 +40,8 @@ const QuizResults = ({
         : "Warning, you're entering the red zone!";
     }
     return language === "fr"
-      ? "Absolument déchaîné ! Tu es la définition du chaos gaming."
-      : "Absolutely unhinged! You are the definition of gaming chaos.";
+      ? "Absolument déchaîné ! Tu es la définition du chaos Valorant."
+      : "Absolutely unhinged! You are the definition of Valorant chaos.";
   };
 
   return (
@@ -107,16 +107,36 @@ const QuizResults = ({
         </div>
 
         {/* Footer */}
-        <footer className="text-center mt-16 text-sm text-muted-foreground">
-          {language === "fr" ? "Crédit" : "Credit"}:{" "}
-          <a
-            href="https://x.com/JDawesome23"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
-            @JDawesome23
-          </a>
+        <footer className="text-center mt-16 text-sm text-muted-foreground space-y-2">
+          <div>
+            {language === "fr" ? "Créé par" : "Created by"}{" "}
+            <span className="text-primary font-semibold">Dartsgame</span>
+          </div>
+          <div>
+            {language === "fr" ? "Merci à" : "Thanks to"}{" "}
+            <a
+              href="https://x.com/JDawesome23"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              @JDawesome23
+            </a>{" "}
+            {language === "fr" 
+              ? "pour certaines questions et l'idée du test de pureté" 
+              : "for certain questions and the purity test idea"}
+          </div>
+          <div className="text-xs">
+            {language === "fr" ? "Site créé avec" : "Website made with"}{" "}
+            <a
+              href="https://lovable.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              Lovable AI
+            </a>
+          </div>
         </footer>
       </div>
     </div>
