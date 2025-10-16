@@ -1,0 +1,102 @@
+{
+  "categories": {
+    "cringe": {
+      "fr": "Cringe",
+      "en": "Cringe"
+    },
+    "toxic": {
+      "fr": "Toxique",
+      "en": "Toxic"
+    },
+    "pervers": {
+      "fr": "Pervers",
+      "en": "Pervers"
+    },
+    "nerd": {
+      "fr": "Nerd",
+      "en": "Nerd"
+    }
+  },
+  "questions": [
+    {
+      "fr": "As-tu déjà utilisé l'excuse \"j'ai lag\" pour justifier un whiff (raté complet) sur un ennemi immobile ?",
+      "en": "Have you ever used the excuse \"I lagged\" to justify a whiff (complete miss) on a stationary enemy?",
+      "cringe": 5,
+      "toxic": 2,
+      "pervers": 0,
+      "nerd": 3
+    },
+    {
+      "fr": "As-tu déjà spammé le chat avec \"EZ\" (easy) après avoir gagné une partie serrée ?",
+      "en": "Have you ever spammed the chat with \"EZ\" (easy) after winning a close game?",
+      "cringe": 4,
+      "toxic": 8,
+      "pervers": 0,
+      "nerd": 1
+    },
+    {
+      "fr": "As-tu déjà campé un angle pendant plus de 30 secondes avec un Operator sans bouger ?",
+      "en": "Have you ever camped an angle for more than 30 seconds with an Operator without moving?",
+      "cringe": 3,
+      "toxic": 4,
+      "pervers": 0,
+      "nerd": 7
+    },
+    {
+      "fr": "As-tu déjà dit \"je smurf\" (je joue sur un compte secondaire) pour impressionner tes mates, même si c'était faux ?",
+      "en": "Have you ever said \"I'm smurfing\" (playing on a secondary account) to impress your teammates, even if it was false?",
+      "cringe": 9,
+      "toxic": 3,
+      "pervers": 0,
+      "nerd": 2
+    },
+    {
+      "fr": "As-tu déjà dit \"je vais clutch\" et fini par mourir en 2 secondes ?",
+      "en": "Have you ever said \"I'll clutch this\" and ended up dying in 2 seconds?",
+      "cringe": 7,
+      "toxic": 1,
+      "pervers": 0,
+      "nerd": 4
+    },
+    {
+      "fr": "As-tu déjà blâmé ton équipe pour une défaite alors que tu étais en bas du scoreboard ?",
+      "en": "Have you ever blamed your team for a loss when you were at the bottom of the scoreboard?",
+      "cringe": 6,
+      "toxic": 9,
+      "pervers": 0,
+      "nerd": 1
+    },
+    {
+      "fr": "As-tu déjà acheté un skin à plus de 50€ juste pour flex devant tes amis ?",
+      "en": "Have you ever bought a skin for more than $50 just to flex in front of your friends?",
+      "cringe": 5,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 8
+    },
+    {
+      "fr": "As-tu déjà rage quit une partie ranked après avoir perdu le premier round ?",
+      "en": "Have you ever rage quit a ranked game after losing the first round?",
+      "cringe": 4,
+      "toxic": 10,
+      "pervers": 0,
+      "nerd": 2
+    },
+    {
+      "fr": "As-tu déjà passé plus de 2 heures dans le practice range à perfectionner un spray pattern ?",
+      "en": "Have you ever spent more than 2 hours in the practice range perfecting a spray pattern?",
+      "cringe": 2,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 10
+    },
+    {
+      "fr": "As-tu déjà menti sur ton rank pour rejoindre un groupe de joueurs ?",
+      "en": "Have you ever lied about your rank to join a group of players?",
+      "cringe": 8,
+      "toxic": 5,
+      "pervers": 0,
+      "nerd": 3
+    }
+  ]
+}
