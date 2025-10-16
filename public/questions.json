@@ -22,25 +22,25 @@
       "fr": "As-tu déjà utilisé l'excuse \"j'ai lag\" pour justifier un whiff (raté complet) sur un ennemi immobile ?",
       "en": "Have you ever used the excuse \"I lagged\" to justify a whiff (complete miss) on a stationary enemy?",
       "cringe": 5,
-      "toxic": 2,
-      "pervers": 0,
-      "nerd": 3
-    },
-    {
-      "fr": "As-tu déjà spammé le chat avec \"EZ\" (easy) après avoir gagné une partie serrée ?",
-      "en": "Have you ever spammed the chat with \"EZ\" (easy) after winning a close game?",
-      "cringe": 4,
-      "toxic": 8,
+      "toxic": 0,
       "pervers": 0,
       "nerd": 1
     },
     {
+      "fr": "As-tu déjà spammé le chat avec \"EZ\" (easy) après avoir gagné une partie serrée ?",
+      "en": "Have you ever spammed the chat with \"EZ\" (easy) after winning a close game?",
+      "cringe": 6,
+      "toxic": 8,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
       "fr": "As-tu déjà campé un angle pendant plus de 30 secondes avec un Operator sans bouger ?",
       "en": "Have you ever camped an angle for more than 30 seconds with an Operator without moving?",
-      "cringe": 3,
-      "toxic": 4,
+      "cringe": 4,
+      "toxic": 3,
       "pervers": 0,
-      "nerd": 7
+      "nerd": 8
     },
     {
       "fr": "As-tu déjà dit \"je smurf\" (je joue sur un compte secondaire) pour impressionner tes mates, même si c'était faux ?",
@@ -64,27 +64,27 @@
       "cringe": 6,
       "toxic": 9,
       "pervers": 0,
-      "nerd": 1
+      "nerd": 0
     },
     {
-      "fr": "As-tu déjà acheté un skin à plus de 50€ juste pour flex devant tes amis ?",
-      "en": "Have you ever bought a skin for more than $50 just to flex in front of your friends?",
+      "fr": "As-tu déjà acheté un skin à plus de 50€ juste pour flex pour les gadji ?",
+      "en": "Have you ever bought a skin for more than $50 just to flex in front of the girls?",
       "cringe": 5,
       "toxic": 0,
-      "pervers": 0,
-      "nerd": 8
+      "pervers": 3,
+      "nerd": 0
     },
     {
-      "fr": "As-tu déjà rage quit une partie ranked après avoir perdu le premier round ?",
-      "en": "Have you ever rage quit a ranked game after losing the first round?",
+      "fr": "As-tu déjà rage quit une partie ranked après avoir perdu le pistol round ?",
+      "en": "Have you ever rage quit a ranked game after losing the pistol round?",
       "cringe": 4,
       "toxic": 10,
       "pervers": 0,
-      "nerd": 2
+      "nerd": 0
     },
     {
-      "fr": "As-tu déjà passé plus de 2 heures dans le practice range à perfectionner un spray pattern ?",
-      "en": "Have you ever spent more than 2 hours in the practice range perfecting a spray pattern?",
+      "fr": "Ton aim routine dure plus d'une 1H30?",
+      "en": "Does your aim routine last more than 1 hour and 30 minutes?",
       "cringe": 2,
       "toxic": 0,
       "pervers": 0,
@@ -93,10 +93,658 @@
     {
       "fr": "As-tu déjà menti sur ton rank pour rejoindre un groupe de joueurs ?",
       "en": "Have you ever lied about your rank to join a group of players?",
-      "cringe": 8,
+      "cringe": 3,
+      "toxic": 3,
+      "pervers": 0,
+      "nerd": 2
+    },
+    {
+      "fr": "As-tu joué à Valorant ?",
+      "en": "Played Valorant?",
+      "cringe": 1,
+      "toxic": 1,
+      "pervers": 1,
+      "nerd": 1
+    },
+    {
+      "fr": "As-tu obtenu une clé pour la Beta de Valorant ?",
+      "en": "Got the Valorant Beta key?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "As-tu joué avec 5 Duelistes en Compétitif ?",
+      "en": "Played 5 Duelists in Competitive?",
+      "cringe": 5,
       "toxic": 5,
       "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "As-tu instalocker ?",
+      "en": "Instalocked?",
+      "cringe": 4,
+      "toxic": 4,
+      "pervers": 0,
+      "nerd": 2
+    },
+    {
+      "fr": "As-tu acheté un skin ?",
+      "en": "Bought a skin?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 4
+    },
+    {
+      "fr": "As-tu acheté un battle pass ?",
+      "en": "Bought a battle pass?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 9
+    },
+    {
+      "fr": "As-tu maximisé la progression d'un Agent ?",
+      "en": "Maxed out an Agent's progression?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 4
+    },
+    {
+      "fr": "As-tu reçu un gun buddy Riot ?",
+      "en": "Recieved a Riot gun buddy?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 10
+    },
+    {
+      "fr": "As-tu reçu un I Create Buddy ?",
+      "en": "Recieved an I Create Buddy?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 10
+    },
+    {
+      "fr": "As-tu atteint Ascendant ou plus ?",
+      "en": "Hit Ascendant or higher?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 4
+    },
+    {
+      "fr": "As-tu atteint Immortal ou plus ?",
+      "en": "Hit Immortal or higher?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 7
+    },
+    {
+      "fr": "As-tu atteint Radiant ?",
+      "en": "Hit Radiant?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 10
+    },
+    {
+      "fr": "Es-tu resté bloqué dans un rank pendant plus de 6 mois ?",
+      "en": "Been stuck in a rank for more than 6 months?",
+      "cringe": 1,
+      "toxic": 4,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "Es-tu resté bloqué dans un rank pendant plus d'un an ?",
+      "en": "Been stuck in a rank for more than a year?",
+      "cringe": 3,
+      "toxic": 4,
+      "pervers": 1,
+      "nerd": 2
+    },
+    {
+      "fr": "Es-tu niveau 400 ou plus ?",
+      "en": "Over Level 400?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 10
+    },
+    {
+      "fr": "As-tu dépensé plus de 1 000$ en skins ?",
+      "en": "Spent over $1,000 on skins?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 10
+    },
+    {
+      "fr": "As-tu manqué de respect à un duel au couteau 1v1 ?",
+      "en": "Disrespected a knife 1v1?",
+      "cringe": 4,
+      "toxic": 3,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu joué à Valorant tous les jours pendant un mois ?",
+      "en": "Played Valorant every single day for a month?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 6
+    },
+    {
+      "fr": "As-tu joué à Valorant pendant plus de 6 heures d'affilée ?",
+      "en": "Played Valorant for more than 6 hours straight?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "As-tu rage quit une partie ?",
+      "en": "Rage quitted a game?",
+      "cringe": 4,
+      "toxic": 4,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu crié sur ton écran en jouant ?",
+      "en": "Screamed at your monitor while playing?",
+      "cringe": 4,
+      "toxic": 3,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu envoyé un message toxique à un coéquipier ?",
+      "en": "Sent a toxic message to a teammate?",
+      "cringe": 0,
+      "toxic": 6,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu crié ou insulté un coéquipier en vocal ?",
+      "en": "Yelled at or flamed a teammate in voice chat?",
+      "cringe": 4,
+      "toxic": 4,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu été mute par tes coéquipiers ?",
+      "en": "Been muted by your teammates?",
+      "cringe": 0,
+      "toxic": 6,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu été banni du chat ou des communications ?",
+      "en": "Been chat or comm banned?",
+      "cringe": 0,
+      "toxic": 6,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu perdu une amitié à cause de Valorant ?",
+      "en": "Lost a friendship due to Valorant?",
+      "cringe": 2,
+      "toxic": 2,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu cassé quelque chose sous le coup de la rage à cause de Valorant ?",
+      "en": "Broken anything out of rage from Valorant?",
+      "cringe": 4,
+      "toxic": 6,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu ajouté quelqu'un après une partie pour l'insulter ?",
+      "en": "Added someone after a game to flame them?",
+      "cringe": 3,
+      "toxic": 8,
+      "pervers": 1,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu envoyé ou reçu une menace de mort à cause d'une partie ?",
+      "en": "Sent or recieved a death threat to someone over a game?",
+      "cringe": 2,
+      "toxic": 9,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu négligé ton hygiène personnelle pour jouer à Valorant ?",
+      "en": "Neglected personal hygeine to play Valorant?",
+      "cringe": 5,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "As-tu séché l'école ou le travail pour jouer à Valorant ?",
+      "en": "Skipped school or work to play Valorant?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "As-tu manqué un événement majeur de la vie (mariage, funérailles, etc.) pour jouer à Valorant ?",
+      "en": "Missed a major life event (wedding, funeral, etc) to play Valorant?",
+      "cringe": 6,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 6
+    },
+    {
+      "fr": "As-tu joué en étant ivre ?",
+      "en": "Played while drunk?",
+      "cringe": 6,
+      "toxic": 6,
+      "pervers": 2,
+      "nerd": 1
+    },
+    {
+      "fr": "As-tu joué en étant défoncé ?",
+      "en": "Played while high?",
+      "cringe": 6,
+      "toxic": 6,
+      "pervers": 2,
+      "nerd": 1
+    },
+    {
+      "fr": "As-tu laissé Valorant affecter négativement ta santé mentale ?",
+      "en": "Let Valorant negatively affect your mental health?",
+      "cringe": 4,
+      "toxic": 4,
+      "pervers": 1,
+      "nerd": 2
+    },
+    {
+      "fr": "Es-tu entré dans un conflit physique à cause de Valorant ?",
+      "en": "Got into physical conflict because of Valorant?",
+      "cringe": 7,
+      "toxic": 7,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu dragué quelqu'un en jeu ?",
+      "en": "Flirted with someone in game?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 2,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu eu un fantasme sexuel à propos d'un personnage de Valorant ?",
+      "en": "Had a sexual fantasy about a Valorant character?",
+      "cringe": 5,
+      "toxic": 0,
+      "pervers": 9,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu créé ou vu du fan art sexuellement volontaire ?",
+      "en": "Have you ever created or seen fan art that is sexually intentional?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 9,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu repeek un op qui a tué ton coéquipier juste pour mourir aussi de cet op ?",
+      "en": "Repeeked an op your teammate died to just to also die to the op?",
+      "cringe": 6,
+      "toxic": 0,
+      "pervers": 1,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu queue swiftplay dans le seul but de trouver l'amour ?",
+      "en": "Queued swiftplay for the sole purpose of finding love?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 4,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu envoyé des photos explicites à quelqu'un que tu as rencontré sur Valorant ?",
+      "en": "Sent explicit pictures to someone you met on Valorant?",
+      "cringe": 3,
+      "toxic": 0,
+      "pervers": 8,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu reçu des photos explicites de quelqu'un que tu as rencontré sur Valorant ?",
+      "en": "Recieved explicit pictures from someone you met on Valorant?",
+      "cringe": 3,
+      "toxic": 0,
+      "pervers": 9,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu sérieusement envisagé de sortir avec quelqu'un que tu as rencontré sur Valorant ?",
+      "en": "Strongly considered dating someone you met on Valorant?",
+      "cringe": 2,
+      "toxic": 2,
+      "pervers": 2,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu cosplayé un personnage de Valorant ?",
+      "en": "Cosplayed as a Valorant character?",
+      "cringe": 6,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "T'a-t-on dit que tu as un accent Valorant ?",
+      "en": "Got told you have a Valorant accent?",
+      "cringe": 2,
+      "toxic": 2,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu throw une partie exprès ?",
+      "en": "Thrown a game on purpose?",
+      "cringe": 2,
+      "toxic": 2,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu smurfé ?",
+      "en": "Smurfed?",
+      "cringe": 7,
+      "toxic": 7,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "T'es-tu fait boost par un smurf ?",
+      "en": "Got boosted by a smurf?",
+      "cringe": 6,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "T'es-tu moqué des edaters en sachant très bien que tu ferais la même chose avec la bonne personne ?",
+      "en": "Made fun of edaters knowing full well you would do the same thing with the right person?",
+      "cringe": 4,
+      "toxic": 0,
+      "pervers": 4,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu triché sur Valorant ?",
+      "en": "Cheated in Valorant?",
+      "cringe": 10,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu placé un pari sur un match professionnel ?",
+      "en": "Placed a bet on a pro match?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 8
+    },
+    {
+      "fr": "Es-tu allé sur le compte d'un ami pour le boost ?",
+      "en": "Gotten on a friends account to boost them?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "Quelqu'un est-il allé sur ton compte pour te boost ?",
+      "en": "Had someone go on your account to boost you?",
+      "cringe": 7,
+      "toxic": 7,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu acheté un compte alternatif ?",
+      "en": "Bought an alt account?",
+      "cringe": 8,
+      "toxic": 8,
+      "pervers": 2,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu vendu un compte ?",
+      "en": "Sold an account?",
+      "cringe": 8,
+      "toxic": 8,
+      "pervers": 2,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu offert un skin à quelqu'un ?",
+      "en": "Gifted a skin to someone?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 1,
+      "nerd": 1
+    },
+    {
+      "fr": "Coche cette case si tu étais romantiquement attiré par cette personne",
+      "en": "Check this box if you were romantically attracted to that person.",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 4,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu simulé ton genre en jeu ?",
+      "en": "Faked your gender in a game?",
+      "cringe": 6,
+      "toxic": 0,
+      "pervers": 2,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu été sexuellement attiré par la voix de quelqu'un ?",
+      "en": "Was sexually attracted to someone's voice?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 6,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu déjà menti sur ton rang ou tes accomplissements ?",
+      "en": "Ever lied about your rank or achivements?",
+      "cringe": 4,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 2
+    },
+    {
+      "fr": "As-tu utilisé tracker.gg pour espionner quelqu'un ?",
+      "en": "Used tracker.gg to spy on someone?",
+      "cringe": 3,
+      "toxic": 0,
+      "pervers": 0,
       "nerd": 3
+    },
+    {
+      "fr": "As-tu stream snipe quelqu'un ?",
+      "en": "Stream sniped someone?",
+      "cringe": 8,
+      "toxic": 3,
+      "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "Es-tu constamment un abuseur d'Odin, Judge ou Operator ?",
+      "en": "Consistently an Odin, Judge, or Operator abuser?",
+      "cringe": 10,
+      "toxic": 10,
+      "pervers": 2,
+      "nerd": 3
+    },
+    {
+      "fr": "As-tu T-bag un joueur ?",
+      "en": "T-bagged a player?",
+      "cringe": 5,
+      "toxic": 5,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu tiré sur le corps de quelqu'un après l'avoir tué ?",
+      "en": "Shot someone's body after you killed them?",
+      "cringe": 5,
+      "toxic": 5,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu pensé à ulter Brimstone sur une zone bondée IRL ?",
+      "en": "As-tu déjà pensé à lancer un ulti de Brimstone dans la vie réelle, dans un endroit très fréquenté comme un festival, un concert ou une manifestation ?",
+      "cringe": 5,
+      "toxic": 1,
+      "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "As-tu aboyé ou miaulé à Sage/Skye pour un soin ?",
+      "en": "Barked or meowed at Sage/Skye for a heal?",
+      "cringe": 8,
+      "toxic": 0,
+      "pervers": 8,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu agi de manière agaçante/bruyante lors de la sélection d'agent pour essayer de faire dodge quelqu'un ?",
+      "en": "Acted annoying/loud in agent select to try and get someone to dodge?",
+      "cringe": 8,
+      "toxic": 4,
+      "pervers": 1,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu vraiment edaté quelqu'un que tu as rencontré sur Valorant ?",
+      "en": "Actually edated someone you met on Valorant?",
+      "cringe": 6,
+      "toxic": 0,
+      "pervers": 8,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu rejoint un discord dans le seul but de trash talk quelqu'un ?",
+      "en": "Joined a discord for the sole purpose of shit talking someone?",
+      "cringe": 8,
+      "toxic": 8,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "Es-tu tombé dans le piège d'un faux clone de Yoru ?",
+      "en": "Fell for a fake yoru clone?",
+      "cringe": 2,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "Tu t'es déjà retourné IRL pour dodge une flash ? ",
+      "en": "Have you ever turned around IRL to dodge a flash?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 7
+    },
+    {
+      "fr": "As-tu essayé de jump ou jiggle peek un coin IRL ?",
+      "en": "Tried to jump or jiggle peek a corner IRL?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 6
+    },
+    {
+      "fr": "As-tu copié le crosshair ou les paramètres d'un pro ?",
+      "en": "Copied a pro's crosshair or settings?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 5
+    },
+    {
+      "fr": "As-tu déjà offert un skin à une fille que tu venais de rencontrer, juste pour tenter de la séduire ?",
+      "en": "Have you ever given a skin to a girl you just met, just to try to hook up with her?",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 8,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu déjà fait du e-sex sur Valorant en pleine partie ?",
+      "en": "Have you ever done e-sex on Valorant during a match? ",
+      "cringe": 0,
+      "toxic": 0,
+      "pervers": 10,
+      "nerd": 0
+    },
+    {
+      "fr": "Est-ce que tu as déjà eu des comportements racistes envers un coéquipier d'une autre ethnie que toi en jeu ?",
+      "en": "Have you ever behaved in a racist way toward a teammate of a different ethnicity while playing a game? ",
+      "cringe": 8,
+      "toxic": 8,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "Est-ce que ton main dans Valorant est Néon ?",
+      "en": "Is your main in Valorant Neon?",
+      "cringe": 8,
+      "toxic": 0,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "As-tu déjà dit \"EZ\" au début d’une partie alors que celle-ci n’était pas du tout terminée ? ",
+      "en": "Have you ever said \"EZ\" at the start of a match when the game wasn’t even close to being over?",
+      "cringe": 8,
+      "toxic": 8,
+      "pervers": 0,
+      "nerd": 0
+    },
+    {
+      "fr": "Suite à cette partie, as-tu subi une remontada ? ",
+      "en": "After that game, did you get reverse‑swept?",
+      "cringe": 8,
+      "toxic": 8,
+      "pervers": 1,
+      "nerd": 0
     }
   ]
 }
