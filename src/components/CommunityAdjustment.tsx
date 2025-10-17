@@ -92,7 +92,7 @@ const CommunityAdjustment = ({ questions, language, onBack }: CommunityAdjustmen
     setCategoryVotes((prev) => ({ ...prev, [category]: vote }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (hasVoted) {
       toast.error(
         language === "fr"
@@ -108,27 +108,55 @@ const CommunityAdjustment = ({ questions, language, onBack }: CommunityAdjustmen
       votes: userVotes,
     };
 
-    // Create downloadable file
-    const dataStr = JSON.stringify(voteData, null, 2);
-    const dataBlob = new Blob([dataStr], { type: "application/json" });
-    const url = URL.createObjectURL(dataBlob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = `vote_${Date.now()}.json`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
+    try {
+      // Send vote to server
+      const response = await fetch("/api/submit_vote.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(voteData),
+      });
 
-    // Store vote timestamp
-    localStorage.setItem("valopurity_last_vote", new Date().toISOString());
-    setHasVoted(true);
+      if (!response.ok) {
+        throw new Error("Failed to submit vote");
+      }
 
-    toast.success(
-      language === "fr"
-        ? "Merci pour ta contribution !"
-        : "Thanks for your contribution!"
-    );
+      // Send category feedback votes
+      const categoryPromises = Object.entries(categoryVotes)
+        .filter(([_, vote]) => vote !== null)
+        .map(([category, vote]) =>
+          fetch("/api/submit_category_feedback.php", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ category, vote }),
+          })
+        );
+
+      await Promise.all(categoryPromises);
+
+      // Store vote timestamp
+      localStorage.setItem("valopurity_last_vote", new Date().toISOString());
+      setHasVoted(true);
+
+      toast.success(
+        language === "fr"
+          ? "Merci pour ta contribution !"
+          : "Thanks for your contribution!"
+      );
+      
+      // Reload community data to show updated averages
+      setTimeout(() => loadCommunityData(), 1000);
+    } catch (error) {
+      console.error("Error submitting vote:", error);
+      toast.error(
+        language === "fr"
+          ? "Erreur lors de l'envoi. Réessaye plus tard."
+          : "Error submitting. Please try again later."
+      );
+    }
   };
 
   const getAverageForQuestion = (questionId: number) => {
