@@ -4,9 +4,10 @@ import LanguageSelector from "@/components/LanguageSelector";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import QuizQuestion from "@/components/QuizQuestion";
 import QuizResults from "@/components/QuizResults";
+import CommunityAdjustment from "@/components/CommunityAdjustment";
 import { Language, QuizData, CategoryScore } from "@/types/quiz";
 
-type Screen = "language" | "quiz" | "results";
+type Screen = "language" | "quiz" | "results" | "community";
 
 const Index = () => {
   const [screen, setScreen] = useState<Screen>("language");
@@ -79,6 +80,14 @@ const Index = () => {
       nerd: 0,
     });
     setScreen("language");
+  };
+
+  const handleCommunityClick = () => {
+    setScreen("community");
+  };
+
+  const handleBackToResults = () => {
+    setScreen("results");
   };
 
   const getCategoryScores = (): CategoryScore[] => {
@@ -174,6 +183,15 @@ const Index = () => {
           maxTotalScore={getMaxTotalScore()}
           language={language}
           onRestart={handleRestart}
+          onCommunityClick={handleCommunityClick}
+        />
+      )}
+
+      {screen === "community" && quizData && (
+        <CommunityAdjustment
+          questions={quizData.questions}
+          language={language}
+          onBack={handleBackToResults}
         />
       )}
     </>

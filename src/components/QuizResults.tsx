@@ -7,6 +7,7 @@ interface QuizResultsProps {
   maxTotalScore: number;
   language: Language;
   onRestart: () => void;
+  onCommunityClick: () => void;
 }
 
 const QuizResults = ({
@@ -15,6 +16,7 @@ const QuizResults = ({
   maxTotalScore,
   language,
   onRestart,
+  onCommunityClick,
 }: QuizResultsProps) => {
   const percentage = (totalScore / maxTotalScore) * 100;
 
@@ -95,14 +97,24 @@ const QuizResults = ({
           ))}
         </div>
 
-        {/* Restart Button */}
-        <div className="text-center">
+        {/* Action Buttons */}
+        <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
           <Button
             onClick={onRestart}
             size="lg"
             className="px-12 glow-primary"
           >
-            {language === "fr" ? "Recommencer" : "Restart"}
+            {language === "fr" ? "Recommencer le test" : "Restart the test"}
+          </Button>
+          <Button
+            onClick={onCommunityClick}
+            size="lg"
+            variant="outline"
+            className="px-12"
+          >
+            {language === "fr"
+              ? "Participer au réajustement des questions"
+              : "Contribute to the question adjustment"}
           </Button>
         </div>
 

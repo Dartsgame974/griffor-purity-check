@@ -1,0 +1,8 @@
+{
+  "categories": {
+    "cringe": { "yes": 0, "no": 0 },
+    "toxic": { "yes": 0, "no": 0 },
+    "pervers": { "yes": 0, "no": 0 },
+    "nerd": { "yes": 0, "no": 0 }
+  }
+}
