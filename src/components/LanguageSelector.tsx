@@ -9,7 +9,7 @@ const LanguageSelector = ({ onSelectLanguage }: LanguageSelectorProps) => {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="text-center animate-fade-in">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-pervers to-nerd bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-valopurity">
           Valopurity
         </h1>
         <p className="text-xl text-muted-foreground mb-12">

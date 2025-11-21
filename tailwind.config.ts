@@ -51,6 +51,7 @@ export default {
         toxic: "hsl(var(--toxic))",
         pervers: "hsl(var(--pervers))",
         nerd: "hsl(var(--nerd))",
+        valopurity: "hsl(var(--valopurity))",
       },
       borderRadius: {
         lg: "var(--radius)",

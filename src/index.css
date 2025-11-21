@@ -43,6 +43,8 @@ All colors MUST be HSL.
     --toxic: 0 72% 51%;
     --pervers: 300 76% 62%;
     --nerd: 189 95% 51%;
+    
+    --valopurity: 354 100% 64%; /* #ff4654 */
 
     /* Gradients */
     --gradient-bg: linear-gradient(180deg, hsl(240 10% 3.9%) 0%, hsl(260 20% 8%) 100%);
