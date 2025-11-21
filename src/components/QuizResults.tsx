@@ -23,8 +23,8 @@ const QuizResults = ({
   const getMessage = () => {
     if (percentage < 20) {
       return language === "fr"
-        ? "Tu es un ange ! Presque trop pur pour Valorant."
-        : "You're an angel! Almost too pure for Valorant.";
+        ? "Tu ne serais pas en train de mentir ? Tu es un peu trop pur pour un joueur de Valorant."
+        : "Aren't you lying? You're a bit too pure for a Valorant player.";
     }
     if (percentage < 40) {
       return language === "fr"
@@ -50,7 +50,7 @@ const QuizResults = ({
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="w-full max-w-4xl animate-fade-in">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-primary via-pervers to-nerd bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-valopurity">
             {language === "fr" ? "Résultats" : "Results"}
           </h1>
           <div className="text-5xl md:text-7xl font-black mb-4">
